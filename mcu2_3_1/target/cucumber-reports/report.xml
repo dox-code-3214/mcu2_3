@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.477" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Calculator" name="Verify Status Codes of Soap Requests to Calculator site. - Example #1.1" time="2.153">
+<system-out><![CDATA[
+Given Calculator site.......................................................passed
+When Soap Request is "Get"..................................................passed
+Then the status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculator" name="Verify Status Codes of Soap Requests to Calculator site. - Example #1.2" time="0.999">
+<system-out><![CDATA[
+Given Calculator site.......................................................passed
+When Soap Request is "Post".................................................passed
+Then the status code should be 500..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
